@@ -20,7 +20,3 @@ This project applies relational database analytics to a real-world dataset of 10
 ### 2. ABC Inventory Classification (Demand Analysis)
 * **The Insight:** Built a cumulative revenue tracking model using SQL window functions (`SUM() OVER`). The data revealed a classic Pareto distribution: **18% of product categories generate over 80% of total revenue (Class A items).**
 * **Operational Recommendation:** Class A items should migrate to a Continuous Review Inventory System with automated safety stock triggers to eliminate stockouts on high-margin goods.
-
-2. Set up your local database schema using the instructions in `data_source.txt`.
-3. Execute `/scripts/01_logistics_performance.sql` for delivery cycle analysis.
-4. Execute `/scripts/02_abc_inventory_analysis.sql` for inventory stratification.

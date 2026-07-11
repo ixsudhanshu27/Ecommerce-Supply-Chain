@@ -2,16 +2,16 @@
 Using SQL (MySQL) to analyze 100k+ e-commerce transactions, identifying last-mile delivery bottlenecks and optimizing warehouse inventory tiers via ABC analysis.
 # Data-Driven Supply Chain Optimization: Last-Mile & Inventory Analytics
 
-## 📌 Project Overview
+## Project Overview
 This project applies relational database analytics to a real-world dataset of 100k+ e-commerce orders. The objective is to evaluate operational efficiency across two core areas of supply chain management:
 1. **Logistics & Last-Mile Performance:** Tracking delivery lead times and mapping regional carrier bottlenecks.
 2. **Inventory Optimization:** Categorizing product segments using an ABC Costing Framework based on the Pareto Principle to streamline demand forecasting.
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools
 * **Database Engine:** MySQL
 * **Concepts:** Common Table Expressions (CTEs), Window Functions, Data Aggregation, Date-Time Manipulation
 
-## 📊 Key Business Insights & Operations Impact
+## Key Business Insights & Operations Impact
 
 ### 1. Last-Mile Latency Mapping (Logistics)
 * **The Insight:** By calculating the variance between estimated and actual delivery dates (`DATEDIFF`), the analysis isolated specific states (e.g., Alagoas and Acre) experiencing average delays of over 4 days beyond consumer expectations.
